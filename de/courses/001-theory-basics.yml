@@ -1,0 +1,47 @@
+course:
+  - title: Stammtöne
+    lesson:
+      text: >
+        In der westlichen Musiktherie gibt es 7 Stammtöne.
+        Im deutschen Sprachraum wird jeder Stammton mit einem
+        Buchstaben aus dem Alphabet benannt: C-D-E-F-G-A-H
+        (im englischen wird statt einem H ein B verwendet).
+    exercise:
+      text: >
+        Spiele jeden Ton einmal, indem du auf den Buchstaben klickst
+      stave: false
+      controls:
+        octaves: false
+        rhythm: false
+        signs: false
+      check: >
+        result = ['C', 'D', 'E', 'F', 'G', 'A', 'B'];
+        this.contains(result).asKey();
+
+  - title: Notensystem
+    lesson:
+      text: >
+        Das Fundament für die musikalische Notation bildet
+        das Notensystem. Es besteht aus 5 horizontalen Linien, welcher
+        bei Bedarf um Hilfslinien erweitert werden können.
+        Noten werden entweder mittig auf einer Linie gezeichnet oder
+        berühren die Linie nur am oberen und/oder unteren Rand.
+    exercise:
+      text: >
+        Schreibe durch Ausprobieren vier Noten mit je einer der
+        folgenden Eigenschaften: auf einer Hilfslinie, unter der untersten 
+        Linie, auf einer Linie und zwischen zwei Linien.
+      stave:
+        clef: 'treble'
+      controls:
+        octaves: false
+        rhythm: false
+        signs: false
+      check: >
+        result = ['C', 'D', 'E', 'F']
+        this.contains(result).asKey();
+      staves2: 
+        - clef: treble
+          notes: 'A'
+        - clef: bass
+          notes: 'A B C D'   
