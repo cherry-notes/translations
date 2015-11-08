@@ -8,16 +8,16 @@ course:
         Buchstaben aus dem Alphabet benannt: C-D-E-F-G-A-H
         (im englischen wird statt einem H ein B verwendet).
     exercise:
-      text: >
-        Spiele jeden Ton einmal, indem du auf den Buchstaben klickst
-      stave: false
-      controls:
-        octaves: false
-        rhythm: false
-        signs: false
-      check: >
-        result = ['C', 'D', 'E', 'F', 'G', 'A', 'B'];
-        this.contains(result).asKey();
+      - text: >
+          Spiele jeden Ton einmal, indem du auf den Buchstaben klickst
+        stave: false
+        controls:
+          octaves: false
+          rhythm: false
+          signs: false
+        check: >
+          result = ['C', 'D', 'E', 'F', 'G', 'A', 'B'];
+          this.contains(result).asKey();
 
   - title: Notensystem
     lesson:
@@ -28,21 +28,21 @@ course:
         Noten werden entweder mittig auf einer Linie gezeichnet oder
         berühren die Linie nur am oberen und/oder unteren Rand.
     exercise:
-      text: >
-        Schreibe durch Ausprobieren vier Noten mit je einer der
-        folgenden Eigenschaften: auf einer Hilfslinie, unter der untersten 
-        Linie, auf einer Linie und zwischen zwei Linien.
-      stave:
-        clef: 'treble'
-      controls:
-        octaves: false
-        rhythm: false
-        signs: false
-      check: >
-        result = ['C', 'D', 'E', 'F']
-        this.contains(result).asKey();
-      staves2: 
-        - clef: treble
-          notes: 'A'
-        - clef: bass
-          notes: 'A B C D'   
+      - text: >
+          Schreibe durch Ausprobieren vier Noten mit je einer der
+          folgenden Eigenschaften: auf einer Hilfslinie, unter der untersten 
+          Linie, auf einer Linie und zwischen zwei Linien.
+        stave:
+          clef: 'treble'
+        controls:
+          octaves: false
+          rhythm: false
+          signs: false
+        check: >
+          result = ['C', 'D', 'E', 'F']
+          this.contains(result).asKey();
+        staves2: 
+          - clef: treble
+            notes: 'A'
+          - clef: bass
+            notes: 'A B C D'   
