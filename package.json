@@ -1,0 +1,25 @@
+{
+  "name": "translations-and-courses",
+  "version": "0.0.1",
+  "description": "translations and official courses for cherry notes",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherry-notes/translations-and-courses.git"
+  },
+  "keywords": [
+    "music",
+    "theory",
+    "lessons",
+    "interactive",
+    "piano",
+    "keyboard",
+    "guitar"
+  ],
+  "author": "Anton Wilhelm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cherry-notes/translations-and-courses/issues"
+  },
+  "homepage": "https://github.com/cherry-notes/translations-and-courses#readme"
+}
