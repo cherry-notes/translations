@@ -1,0 +1,11 @@
+dashboard: Dashboard
+courses: Courses
+lesson: Lesson
+lessons: Lessons
+exercise: Exercise
+explanation: Explanation
+settings: Settings
+continue: Continue
+continue-tooltip-to-exercise: to exercise
+continue-tooltip-not-solved: exercise not solved yet
+continue-tooltip-solved: to next lesson
