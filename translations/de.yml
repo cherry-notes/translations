@@ -1,11 +1,35 @@
+# navigation
 dashboard: Dashboard
 courses: Kurse
+choose-course-first: Zuerst einen Kurs wählen
 lesson: Lektion
 lessons: Lektionen
 exercise: Aufgabe
+exercises: Aufgaben
 explanation: Erläuterung
 settings: Einstellungen
+# general
+no-courses-for-your-lang: Keine Kurse verfügbar für deine Sprache
+goto-settings-and-change-lang: Ändere die Sprache in den Einstellungen, um Kurse zu sehen
+course-not-found: Kurs <em>%(name)s</em> nicht gefunden
+course-or-lesson-not-found: Kurs oder Lektion nicht gefunden
+goto-course-list: zur Übersicht aller Kurse
+# lesson
 continue: Weiter
 continue-tooltip-to-exercise: zur Aufgabe
 continue-tooltip-not-solved: Aufgabe ist noch nicht gelöst
 continue-tooltip-solved: zur nächsten Lektion
+# settings
+about: Info
+language: Sprache
+language-name: Deutsch
+music-language: Musiksprache
+app-version: App-Version
+i18n-and-courses: Kurs- und Sprachpaket
+sourcecode: Quellcode
+course-content: Kurse
+translation-content: Übersetzungen
+history: Historie
+course-amount: Anzahl Kurse
+lesson-amount: Anzahl Lektionen
+exercise-amount: Anzahl Übungen

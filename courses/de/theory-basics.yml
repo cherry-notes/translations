@@ -1,36 +1,36 @@
 title: Theorie Grundlagen
-course:
+lessons:
   - title: Stammtöne
-    lesson:
-      text: >
+    explanation:
+      text: |
         In der westlichen Musiktherie gibt es 7 Stammtöne.
         Im deutschen Sprachraum wird jeder Stammton mit einem
         Buchstaben aus dem Alphabet benannt: C-D-E-F-G-A-H
         (im englischen wird statt einem H ein B verwendet).
-    exercise:
-      - text: >
+    exercises:
+      - text: |
           Spiele jeden Ton einmal, indem du auf den Buchstaben klickst
         stave: false
         controls:
           octaves: false
           rhythm: false
           signs: false
-        check: >
+        check: |
           result = ['C', 'D', 'E', 'F', 'G', 'A', 'B'];
           this.contains(result).asKey();
 
   - title: Notensystem
-    lesson:
-      text: >
+    explanation:
+      text: |
         Das Fundament für die musikalische Notation bildet
         das Notensystem. Es besteht aus 5 horizontalen Linien, welcher
         bei Bedarf um Hilfslinien erweitert werden können.
         Noten werden entweder mittig auf einer Linie gezeichnet oder
         berühren die Linie nur am oberen und/oder unteren Rand.
-    exercise:
-      - text: >
+    exercises:
+      - text: |
           Schreibe durch Ausprobieren vier Noten mit je einer der
-          folgenden Eigenschaften: auf einer Hilfslinie, unter der untersten 
+          folgenden Eigenschaften: auf einer Hilfslinie, unter der untersten
           Linie, auf einer Linie und zwischen zwei Linien.
         stave:
           clef: 'treble'
@@ -38,11 +38,27 @@ course:
           octaves: false
           rhythm: false
           signs: false
-        check: >
+        check: |
           result = ['C', 'D', 'E', 'F']
           this.contains(result).asKey();
-        staves2: 
-          - clef: treble
-            notes: 'A'
-          - clef: bass
-            notes: 'A B C D'   
+
+  - title: Bla bla
+    explanation:
+      text: |
+        Erläuterung mit vordefiniertem Liniensystem
+      stave:
+        clef: 'treble'
+        notes: ['C/4', 'D/4', 'E/4', 'F/4', 'G/4', 'A/4', 'B/4', 'C/5']
+
+    exercises:
+      - text: |
+          Mach irgendwas!
+        stave:
+          clef: 'treble'
+        controls:
+          octaves: true
+          rhythm: true
+          signs: true
+        check: |
+          result = ['C', 'D', 'E', 'F']
+          this.contains(result).asKey();

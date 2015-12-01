@@ -1,1 +1,5 @@
-- theory-basics.yml
+languages:
+  - de
+
+courses:
+  - theory-basics
