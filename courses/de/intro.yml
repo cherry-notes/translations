@@ -66,3 +66,14 @@ lessons:
         check: |
           result = ['F', 'E', 'E'];
           this.equal(result).with({key: true});
+ -
+    title: Benutzerprofil
+    explanation:
+      text: |
+        Das Benutzerprofil ist relativ simpel. Da es noch keine Anbindung an
+        ein Backend gibt, wird alles im Browser gespeichert.<br>
+        Das bedeutet, wenn du einen anderen Browser verwendest oder Cherry Notes
+        im privaten Modus öffnest, sind deine Daten erstmal weg, also alles was
+        du bisher eingegeben hast.<br><br>
+        Einen Neustart des Browsers bzw. Computers kannst du natürlich machen,
+        solange du danach den gleichen Browser wieder verwendest.
