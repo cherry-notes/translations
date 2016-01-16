@@ -125,14 +125,15 @@ lessons:
     explanation:
       text: |
         Die Klaviatur ist ne feine Sache, aber zum Aufschreiben von Noten
-        muss etwas anderes her. Übrigens kann man einen __Ton__ kann nur hören, aber
+        muss etwas anderes her. Übrigens kann man einen __Ton__ nur hören, aber
         nicht aufschreiben. Umgekehrt kann man eine __Note aufschreiben__, aber
         nicht hören.
         Die __Note__ lässt sich aber mit einem Instrument abspielen oder auch
         mit der eigenen Stimme singen und wird somit als __Ton hörbar__.
         <br><br>
         Für die musikalische Notation hat sich das Liniensystem mit 5 Linien durchgesetzt.
-        Das Liniensystem funktioniert allerdings ohne einen Notenschlüssel nicht.
+        Gezählt wird von unten nach oben, die __erste Linie__ ist also unten und die __fünfte__ oben.
+        Das Liniensystem funktioniert ohne einen Notenschlüssel allerdings nicht.
         Dazu mehr in der nächsten Aufgabe.
       output:
         stave:
@@ -143,7 +144,7 @@ lessons:
         text: |
           Zu sehen ist hier ein Liniensystem mit dem __Violinschlüssel__
           (auch G-Schlüssel genannt). Dieser legt fest, dass auf der 2. Linie
-          (es wird immer von unten nach oben gezählt) die Note __G__ liegt.
+          die Note __G__ liegt.
           Noten können entweder auf einer Linie liegen oder im Zwischenraum.<br><br>
           Das __G__ ist bereits gesetzt, vervollständige die Noten weiter,
           sodass sie im Liniensystem alle nacheinander von unten tief nach oben verlaufen
