@@ -66,7 +66,7 @@ lessons:
         check: |
           result = ['F', 'E', 'E'];
           this.equal(result).with({key: true});
- -
+  -
     title: Benutzerprofil
     explanation:
       text: |
