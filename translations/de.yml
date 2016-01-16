@@ -8,7 +8,10 @@ exercise: Aufgabe
 exercises: Aufgaben
 explanation: Erläuterung
 settings: Einstellungen
+back: 'zurück'
+menu: 'Menü'
 # general
+switch-orientation: 'Bitte dreh dein Gerät ins Querformat.'
 no-courses-for-your-lang: Keine Kurse verfügbar für deine Sprache
 goto-settings-and-change-lang: Ändere die Sprache in den Einstellungen, um Kurse zu sehen
 course-not-found: Kurs <em>%(name)s</em> nicht gefunden
@@ -20,10 +23,12 @@ continue-tooltip-to-exercise: zur Aufgabe
 continue-tooltip-not-solved: Aufgabe ist noch nicht gelöst
 continue-tooltip-solved: zur nächsten Lektion
 # settings
-about: Info
+about: Über
 language: Sprache
 language-name: Deutsch
 music-language: Musiksprache
+feedback: Feedback
+my-feedback: Meine Feedback Einträge
 app-version: App-Version
 i18n-and-courses: Kurs- und Sprachpaket
 sourcecode: Quellcode

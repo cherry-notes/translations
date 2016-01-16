@@ -8,7 +8,10 @@ exercise: Exercise
 exercises: Exercises
 explanation: Explanation
 settings: Settings
+back: 'back'
+menu: 'Menu'
 # general
+switch-orientation: 'Please rotate your device to landsacpe orientation.'
 no-courses-for-your-lang: No courses available for your language
 goto-settings-and-change-lang: Change your language in the settings to access courses
 course-not-found: Course <em>%(name)s</em> not found
@@ -24,6 +27,8 @@ about: About
 language: Language
 language-name: English
 music-language: Music Language
+feedback: Feedback
+my-feedback: My feedback entries
 app-version: App version
 i18n-and-courses: Courses and Translations
 sourcecode: Sourcecode

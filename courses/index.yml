@@ -2,4 +2,6 @@ languages:
   - de
 
 courses:
-  - theory-basics
+  - intro
+  - basics-1
+  - playground

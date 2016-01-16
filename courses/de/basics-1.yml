@@ -1,0 +1,164 @@
+title: Grundlagen Teil 1
+text: |
+  Egal ob Anfänger oder Wiedereinsteiger – in diesem Kurs lernst du die
+  Grundlagen der Musiktheorie. Es sind keine Vorkenntnisse erforderlich.
+lessons:
+  -
+    title: Stammtöne
+    explanation:
+      text: |
+        In der vorherigen Lektion hast du bereits die Buttons für die Notennamen genutzt.
+        In der Musiktheorie heißen diese Stammtöne und es gibt 7 davon. Die Reihenfolge
+        ist ähnlich wie im Alphabet, nur dass es statt mit einem __A__, mit dem __C__
+        anfängt.<br>
+        Nun fragst du dich vielleicht: _7 Stammtöne? – Aber ein Klavier hat doch
+        viel mehr Tasten und eine Gitarre hat mehr als 7 Bünde!_<br>
+        Das ist richtig. Um eine Note zu schreiben, muss man noch weitere Eigenschaften
+        bestimmen. Zum Beispiel die Oktave. Die Oktave wird später erklärt, aber du kannst
+        dir das schon mal so vorstellen, dass in einem Hochhaus in jeder
+        Etage 7 Stammtöne wohnen ;)<br>
+        Übrigens gibt es da eine Sonderregelung in der englischen Sprache.
+        Dort heißt es nicht __H__, sondern __B__.
+
+    exercises:
+      -
+        text: |
+          Schreibe jeden Stammton einmal in die Eingabe und spiele ihn ab.
+          Die Reihenfolge, in welcher du die Töne einträgst, ist egal.<br>
+          PS: Nicht vergessen am Ende den Play Button zu drücken!
+        controls:
+          scale:
+            rest: false
+        output:
+          text:
+            keysOnly: true
+            octave: false
+        check: |
+          result = ['C-D-E-F-G-A-B/4'];
+          this.contains(result, {order:false}).with({key: true, played: true});
+
+  -
+    title: Klaviatur
+    explanation:
+      text: |
+        Als allererstes schauen wir uns eine Klaviatur an. Diese eignet sich
+        besonders gut für die Notenlehre und schafft etwas Realistisches in
+        der trockenen Musiktheorie.<br>
+        Sicherlich hast so eine Klaviatur bereits bei einem Klavier
+        gesehen. Ein herkömmliches Klavier hat __88__ Tasten, aber keine Sorge,
+        du musst nicht alle 88 Tasten auswendig lernen, sondern nur 12 ;)<br>
+        12 der 88 Tasten wiederholen sich nämlich immer wieder.
+        Wie du bestimmt schon in dieser Lektion gemerkt hast,
+        werden nicht alle 88 Tasten hier angezeigt. Für die Lektionen werden
+        deutlich weniger Tasten benötigt und außerdem spart man damit Platz auf
+        dem Bildschirm.
+      controls:
+        piano:
+          sound: false
+          from: 'A2'
+          to: 'C5'
+    exercises:
+      -
+        text: |
+            Klicke alle weißen Tasten auf der Klaviatur innerhalb des markierten Bereiches
+            an. Die weißen Tasten sind übrigens Stammtöne,
+            während die schwarzen keine Stammtöne sind, dazu aber erst später mehr.<br>
+        controls:
+          piano:
+            sound: true
+            from: 'A2'
+            to: 'C5'
+            highlight:
+              color: '#f44336'
+              range:
+                from: 'C3'
+                to: 'B3'
+        output:
+          text:
+            keysOnly: true
+            octave: false
+        check: |
+          result = ['C-D-E-F-G-A-B/3'];
+          this.contains(result, {order:false}).with({key: true});
+      -
+        text: |
+          Du hast dich vielleicht schon gefragt, wie man sich bei einem Klavier mit 88
+          Tasten orientieren kann. Oder welcher Bereich der 88 Tasten
+          in dieser Klaviatur eigentlich angezeigt wird
+          (ohne die Töne auf Klaviatur und Klavier zu vergleichen).<br>
+          Das ist gar nicht so schwer! In der Mitte einer Klaviatur befindet sich das
+          __mittlere C__. Wie der Name schon vermuten lässt, gibt es mehrere __C__s.
+          Ein __C__ befindet sich immer links von einem schwarzen 2-er Block.
+          Und das __mittlere C__ ist das __C__, welches in der Mitte der Klaviatur liegt.
+          Klicke nun das __mittlere C__ an.
+        controls:
+          piano:
+            sound: true
+            from: 'A2'
+            to: 'C5'
+        output:
+          text:
+            keysOnly: true
+            octave: false
+        check: |
+          result = ['C/4'];
+          this.equal(result).with({key: true});
+        rewards: ['tasten-streichler']
+      -
+        text: |
+          Finde alle __C__s auf der Klaviatur.
+        controls:
+          piano:
+            sound: true
+            from: 'A2'
+            to: 'C5'
+        output:
+          text:
+            keysOnly: true
+            octave: false
+        check: |
+          result = ['C/3', 'C/4', 'C/5'];
+          this.equal(result, {order: false}).with({key: true});
+
+  -
+    title: Liniensystem
+    explanation:
+      text: |
+        Die Klaviatur ist ne feine Sache, aber zum Aufschreiben von Noten
+        muss etwas anderes her. Übrigens kann man einen __Ton__ kann nur hören, aber
+        nicht aufschreiben. Umgekehrt kann man eine __Note aufschreiben__, aber
+        nicht hören.
+        Die __Note__ lässt sich aber mit einem Instrument abspielen oder auch
+        mit der eigenen Stimme singen und wird somit als __Ton hörbar__.
+        <br><br>
+        Für die musikalische Notation hat sich das Liniensystem mit 5 Linien durchgesetzt.
+        Das Liniensystem funktioniert allerdings ohne einen Notenschlüssel nicht.
+        Dazu mehr in der nächsten Aufgabe.
+      output:
+        stave:
+          clef: 'none'
+
+    exercises:
+      -
+        text: |
+          Zu sehen ist hier ein Liniensystem mit dem __Violinschlüssel__
+          (auch G-Schlüssel genannt). Dieser legt fest, dass auf der 2. Linie
+          (es wird immer von unten nach oben gezählt) die Note __G__ liegt.
+          Noten können entweder auf einer Linie liegen oder im Zwischenraum.<br><br>
+          Das __G__ ist bereits gesetzt, vervollständige die Noten weiter,
+          sodass sie im Liniensystem alle nacheinander von unten tief nach oben verlaufen
+          und eine Treppenform bilden.
+        output:
+          value: ['G/4']
+          stave:
+            clef: 'treble'
+        controls:
+          piano:
+            sound: true
+            black: false
+            disable: ['C4', 'D4', 'E4', 'F4']
+            from: 'C4'
+            to: 'F5'
+        check: |
+          result = ['G/4', 'A/4', 'B/4', 'C/5', 'D/5', 'E/5', 'F/5'];
+          this.equal(result).with({key: true});

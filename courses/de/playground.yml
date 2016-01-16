@@ -1,0 +1,62 @@
+title: Spielewiese
+text: |
+  Dieser Kurs ist nur dafür da, um zu zeigen welche Widgets und Funktionen
+  Cherry Notes anbietet.
+lessons:
+  -
+    title: Demo 1
+    explanation:
+      text: |
+        Das Fundament für die musikalische Notation bildet
+        das Notensystem. Es besteht aus 5 horizontalen Linien, welcher
+        bei Bedarf um Hilfslinien erweitert werden können.
+        Noten werden entweder mittig auf einer Linie gezeichnet oder
+        berühren die Linie nur am oberen und/oder unteren Rand.
+    exercises:
+      -
+        text: |
+          Eine Gaststätte in der es vor allem Kaffee gibt.
+        output:
+          stave:
+            clef: 'treble'
+        controls:
+          scale: true
+          octaves: false
+          rhythm: false
+          signs: false
+        check: |
+          result = ['C-A-F-E/4']
+          this.equal(result).with({key: true});
+
+  -
+    title: Demo 2
+    explanation:
+      text: |
+        Erläuterung mit einer vordefinierten Eingabe.
+      output:
+        value: ['C/5 B-A-G-F-E-D-C/4']
+        stave:
+          clef: 'treble'
+
+    exercises:
+      -
+        text: |
+          Aufgabe mit vordefiniertem Input (lässt sich nicht zurücksetzen).<br>
+          Alle Widgets sind aktiviert, du kannst dich also austoben ;)<br>
+          ACHTUNG: Einige Eingaben können außerhalb des sichtbaren Bereichs liegen.
+        output:
+          value: ['C/4', 'D/4']
+          stave:
+            clef: 'treble'
+        controls:
+          scale: true
+          octaves: true
+          rhythm: true
+          signs: true
+          chord: true
+          piano:
+            from: 'A2'
+            to: 'C5'
+        check: |
+          result = ['C', 'D']
+          this.contains(result).with({key: true});

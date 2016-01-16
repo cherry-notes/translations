@@ -1,0 +1,68 @@
+title: Cherry Notes Intro
+text: |
+  Hier erfährst du, wie die Kurse und Lektionen von Cherry Notes aufgebaut sind
+  und wie das User Interface funktioniert.
+lessons:
+  -
+    title: Begriffe und User Interface
+    explanation:
+      text: |
+        Aktuell bist befindest du dich in der 1. Lektion des __Kurses__ _Cherry Notes Intro_.
+        Eine __Lektion__ besteht aus einer __Erläuterung__ und beliebig vielen
+        interaktiven __Aufgaben__.
+        Um einen Kurs abzuschließen, musst du alle Übungen lösen.
+        Unter der Navigationsleiste befindet sich eine Brotkrümelnavigation für den
+        aktuellen Kurs. In der rechten
+        Hälfte erkennst du wie viele Aufgaben die aktuelle Lektion hat und ob du gerade
+        bei der Erläuterung bist oder in einer der Aufgaben. Die Aufgaben
+        sind mit Buchstaben nummeriert, also __A__, __B__, __C__, usw.
+        Sobald du die Erläuterung gelesen hast, kannst du über den unteren Button
+        zur Übung übergehen. Wenn du zurück willst, kannst du einfach die eingebauten
+        Funktionen deines Browser nutzen, also vor und zurück.
+    exercises:
+      -
+        controls:
+          scale:
+            rest: false
+        output:
+          text:
+            keysOnly: true
+            octave: false
+        text: |
+          In jeder Aufgabe gibt es __Eingabemöglichkeiten__, diese können sich je nach
+          Aufgabe unterscheiden. In dieser Aufgabe sind es Buttons für die Tonhöhe.
+          Außerdem gibt es eine visuelle __Ausgabe__, Damit du auch sehen kannst was
+          du bereits eingegeben hast. Diese kann sich je nach Aufgabe ebenfalls unterscheiden.
+          <br><br>
+          In der jetzigen Beispielaufgabe lautet die Anweisung:
+          _Drücke den Button mit dem BuchstabenF **F** _
+          <br><br>
+          Sobald du die richtige Eingabe getätigt hast, leuchtet der untere Button
+          grün auf und du kannst zur nächsten Übung weitergehen. Du kannst die
+          Eingabe im Bereich __Aktionen__ den Button mit dem x verwenden, um die
+          Eingabe zurückzusetzen. Meistens kannst du deine Eingabe
+          sogar mit weiteren Buttons abspielen und stoppen.
+        check: |
+          result = ['F'];
+          this.equal(result).with({key: true});
+      -
+        controls:
+          scale:
+            rest: false
+        output:
+          value: ['F']
+          text:
+            keysOnly: true
+            octave: false
+        text: |
+          Nun befindest du dich in der zweiten und letzen Aufgabe dieser Lektion.
+          Wenn du diese Aufgabe löst und anschließend den unteren Button drückst, landest du
+          bei Lektion 2.<br><br>
+          In der Ausgabe siehst du, dass bereits etwas ausgefüllt ist und zwar, die
+          Eingabe aus der vorherigen Aufgabe. Das muss nicht immer so sein, sondern
+          hängt ganz von der Aufgabe ab. Beim Zurücksetzen wird die vorgefüllte Eingabe
+          ignoriert.<br><br>
+          _Vervollständige das Wort: Ein fliegendes Fabelwesen mit 3 Buchstaben_.
+        check: |
+          result = ['F', 'E', 'E'];
+          this.equal(result).with({key: true});
