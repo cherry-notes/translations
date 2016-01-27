@@ -8,7 +8,7 @@ lessons:
     explanation:
       text: |
         In der vorherigen Lektion hast du bereits die Buttons für die Notennamen genutzt.
-        In der Musiktheorie heißen diese _Stammtöne_ und es gibt 7 davon. Die Reihenfolge
+        In der Musiktheorie heißen diese _Stammtöne_ und es gibt 7 davon: C, D, E, F, G, A, H. Die Reihenfolge
         ist ähnlich wie im Alphabet, nur dass es statt mit einem __A__, mit dem __C__
         anfängt.<br>
         Nun fragst du dich vielleicht: _7 Stammtöne? – Aber ein Klavier hat doch
@@ -18,7 +18,7 @@ lessons:
         dir das schon mal so vorstellen, dass in einem Hochhaus in jeder
         Etage 7 Stammtöne wohnen ;)<br>
         Übrigens gibt es da eine Sonderregelung in der englischen Sprache.
-        Dort heißt es nicht __H__, sondern __B__.
+        Dort schreibt man statt einem __H__ ein __B__.
 
     exercises:
       -
@@ -41,17 +41,17 @@ lessons:
     title: Klaviatur
     explanation:
       text: |
-        Als allererstes schauen wir uns eine Klaviatur an. Diese eignet sich
+        Als Allererstes schauen wir uns eine Klaviatur an. Diese eignet sich
         besonders gut für die Notenlehre und schafft etwas Realistisches in
         der trockenen Musiktheorie.<br>
-        Sicherlich hast so eine Klaviatur bereits bei einem Klavier
+        Sicherlich hast du bereits so eine Klaviatur bei einem Klavier
         gesehen. Ein herkömmliches Klavier hat __88__ Tasten, aber keine Sorge,
         du musst nicht alle 88 Tasten auswendig lernen, sondern nur 12 ;)<br>
         12 der 88 Tasten wiederholen sich nämlich immer wieder.
-        Wie du bestimmt schon in dieser Lektion gemerkt hast,
-        werden nicht alle 88 Tasten hier angezeigt. Für die Lektionen werden
-        deutlich weniger Tasten benötigt und außerdem spart man damit Platz auf
-        dem Bildschirm.
+        Wie du weiter unten sehen kannst, werden in der virtuellen Cherry Notes Klaviatur 
+        nicht alle 88 Tasten dargestellt. Es werden immer nur 
+        soviele Tasten angezeigt, wie in der jeweiligen Lektion benötigt werden. 
+        Außerdem spart man somit Platz auf dem Bildschirm.
       controls:
         piano:
           sound: false
@@ -60,8 +60,8 @@ lessons:
     exercises:
       -
         text: |
-            Klicke alle weißen Tasten auf der Klaviatur innerhalb des markierten Bereiches
-            an. Die weißen Tasten sind übrigens Stammtöne,
+            Klicke alle weißen Tasten auf der Klaviatur an, die rot markiert sind.
+            Die weißen Tasten sind übrigens Stammtöne,
             während die schwarzen keine Stammtöne sind, dazu aber erst später mehr.<br>
         controls:
           piano:
@@ -85,11 +85,15 @@ lessons:
           Du hast dich vielleicht schon gefragt, wie man sich bei einem Klavier mit 88
           Tasten orientieren kann. Oder welcher Bereich der 88 Tasten
           in dieser Klaviatur eigentlich angezeigt wird
-          (ohne die Töne auf Klaviatur und Klavier zu vergleichen).<br>
-          Das ist gar nicht so schwer! In der Mitte einer Klaviatur befindet sich das
+          (ohne die Töne der virtuellen Klaviatur mit denen eines echten Klaviers zu vergleichen).<br>
+          Das ist gar nicht so schwer! Ziemlich in der Mitte einer Klaviatur beim Klavier befindet sich immer das
           __mittlere C__. Wie der Name schon vermuten lässt, gibt es mehrere __C__s.
-          Ein __C__ befindet sich immer links von einem schwarzen 2-er Block.
-          Und das __mittlere C__ ist das __C__, welches in der Mitte der Klaviatur liegt.
+          Dir ist vielleicht schon aufgefallen, dass sich die schwarzen Tasten beim Klavier immer in 
+          einem Zweier- bzw. Dreierblock abwechseln. Im englischen gibt es eine kleine Eselsbrücke: 
+          den Zweierblock nennt man ›chopsticks‹ (Essstäbchen) und den Dreierblock ›fork‹ (Gabel).
+          Jede weiße Taste links neben den ›chopsticks‹ ist immer ein __C__ (so wie jede weiße Taste links neben der ›fork‹ immer ein _F_ ist). 
+          Und das __mittlere C__ ist schlussfolgernd das __C__, welches in der Mitte der Klaviatur liegt. 
+          Unten wird der mittlere Bereich eines Klaviers abgebildet.
           Klicke nun das __mittlere C__ an.
         controls:
           piano:
